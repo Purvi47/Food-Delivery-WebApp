@@ -58,3 +58,10 @@ FOOD-DELIVERY-WEBAPP
 │   ├── uploads/
 │   ├── server.js
 │   └── package.json
+
+
+```
+### How to Run 
+Frontend : npm run dev
+Backend : npm start
+Admin : npm run dev
