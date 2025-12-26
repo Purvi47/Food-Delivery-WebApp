@@ -61,7 +61,7 @@ FOOD-DELIVERY-WEBAPP
 
 
 ```
-## ▶️ How to Run
+## How to Run
 
 - Frontend: `npm run dev`
 - Backend: `npm start`
