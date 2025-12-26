@@ -61,7 +61,8 @@ FOOD-DELIVERY-WEBAPP
 
 
 ```
-### How to Run 
-Frontend : npm run dev
-Backend : npm start
-Admin : npm run dev
+## ▶️ How to Run
+
+- Frontend: `npm run dev`
+- Backend: `npm start`
+- Admin: `npm run dev`
