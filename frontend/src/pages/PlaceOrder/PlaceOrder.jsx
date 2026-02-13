@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "./PlaceOrder.css";
 
+
+
 const PlaceOrder = () => {
   const { getTotalCartAmount, cartItems, food_list, url } = useContext(StoreContext);
   const [data, setData] = useState({
@@ -83,6 +85,7 @@ const PlaceOrder = () => {
     }
   };
 
+  
   return (
     <form onSubmit={placeOrder} className="place-order">
       <div className="place-order-left">
@@ -172,17 +175,17 @@ const PlaceOrder = () => {
           <h2>Cart Total</h2>
           <div className="cart-total-details">
             <p>Subtotal</p>
-            <p>₹{getTotalCartAmount()}</p>
+            <p>${getTotalCartAmount()}</p>
           </div>
           <hr />
           <div className="cart-total-details">
             <p>Delivery Fee</p>
-            <p>₹{getTotalCartAmount() === 0 ? 0 : 50}</p>
+            <p>${getTotalCartAmount() === 0 ? 0 : 50}</p>
           </div>
           <hr />
           <div className="cart-total-details">
             <b>Total</b>
-            <b>₹{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 50}</b>
+            <b>${getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 50}</b>
           </div>
         </div>
         <button type="submit">PROCEED TO PAYMENT</button>

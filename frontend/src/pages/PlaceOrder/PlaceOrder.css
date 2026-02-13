@@ -33,3 +33,41 @@
 .place-order .cart-total button{
     margin-top: 30px;
 }
+.place-order button {
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px;
+    transition: background-color 0.3s;
+}
+.cart-total h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.cart-total-details b {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.cart-total hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 0;
+}
+
